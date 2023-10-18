@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Main {
@@ -10,5 +11,6 @@ public class Main {
         System.out.println(Integer.MAX_VALUE + 10);
         System.out.println(Double.MAX_VALUE + 1);
         System.out.println(Double.MAX_VALUE / 0);
+        System.out.println(BigInteger.valueOf(2).pow(64));
     }
 }
