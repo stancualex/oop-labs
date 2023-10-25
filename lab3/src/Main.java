@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         if (0.1 + 0.1 + 0.1 == 0.3) {
@@ -32,5 +34,19 @@ public class Main {
         x ^= y;
         System.out.println(x);
         System.out.println(y);
+
+        Scanner in = new Scanner(System.in);
+        int nr_vocale = 0;
+        int nr_consoane = 0;
+        String vocale = "aeiou";
+        for (char c : str3.toLowerCase().toCharArray()) {
+
+        }
+        System.out.print("Introduceti o vocala: ");
+        char vocala = in.nextLine().toCharArray()[0];
+        if (vocale.indexOf(vocala) == -1) {
+            System.out.println("Caracterul introdus nu este o vocala!");
+            System.exit(1);
+        }
     }
 }
