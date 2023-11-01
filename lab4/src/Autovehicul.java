@@ -65,12 +65,12 @@ public class Autovehicul {
         }
     }
     void decelerare(float delta) {
-        if (vitezaCurenta - delta >= 0.f) {
+        if (vitezaCurenta - delta >= 0f) {
             vitezaCurenta -= delta;
         }
     }
     void oprire() {
-        vitezaCurenta = 0.f;
+        vitezaCurenta = 0f;
     }
     void modificareTreapta(int treaptaNoua) {
         if (treaptaNoua > 0 && treaptaNoua <= numarTrepte) {
